@@ -1,3 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: magenta;
+    background-color: lightblue;
+}
+
+p {
+    color: steelblue;
+}
+
+.very-cool {
+    color: magenta
+}
+
+.box {
+    background-color:dodgerblue;
+    width: 100px;
+    height: 100px;
+    /* this magically centers things inside an element */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+li {
+    list-style: none;
 }
